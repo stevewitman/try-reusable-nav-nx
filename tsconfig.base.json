@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@reusable-nav/shared/material": ["libs/shared/material/src/index.ts"],
+      "@reusable-nav/shared/nav": ["libs/shared/nav/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
